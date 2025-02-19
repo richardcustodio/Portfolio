@@ -1,0 +1,173 @@
+/* ========================
+   VARIÁVEIS GERAIS
+========================= */
+:root {
+  /* Cores principais */
+  --cor-texto-primario: #eaeaea; /* Cor principal do texto */
+  --cor-fundo: #0a192f; /* Fundo escuro */
+  --cor-background: #001845; /* Fundo geral do site */
+  --cor-secao-background: #112d4e; /* Fundo das seções */
+  --cor-sombra: rgba(0, 0, 0, 0.1); /* Sombra para seções */
+  --cor-borda: #333; /* Cor das bordas */
+
+  /* Cores de links e botões */
+  --cor-link: #2965f1; /* Cor dos links */
+  --cor-link-hover: #ff8c00; /* Cor dos links no hover */
+  --cor-destaque: #fca311; /* Cor de destaque (botões e elementos importantes) */
+  --cor-destaque-hover: #ff6f00; /* Cor de destaque no hover */
+
+  /* Tipografia */
+  --fonte-padrao: "Arial", sans-serif;
+  --fonte-titulo: "Helvetica Neue", sans-serif; /* Fonte para títulos e elementos destacados */
+
+  /*============== HEADER =============== */
+  --cor-header-fundo: #001233;
+  --cor-header-texto: #fff;
+  --cor-header-link-hover: #0353a4;
+
+  /*============== MAIN =============== */
+  --cor-background: #001845;
+  --cor-texto: #fff;
+  --cor-header-link: #33415c;
+
+  /*============== SEÇÕES =============== */
+  --cor-background-secao: #023e7d; /* Cor de fundo das seções */
+  --cor-texto-secao: #fff; /* Cor do texto das seções */
+
+  /*============== HABILIDADES =============== */
+  --cor-fundo-habilidades: #002855;
+  --cor-barra-progresso: #ff6f00;
+  --cor-texto-destaque: #0466c8;
+}
+
+/* ========================
+   RESET
+========================= */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonte-padrao);
+  line-height: 1.6;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto-primario);
+  padding-top: 4rem;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-link);
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--cor-link-hover);
+}
+
+/* ========================
+   LAYOUT GERAL
+========================= */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 3rem 2rem;
+  background-color: var(--cor-secao-background);
+  margin: 2rem auto;
+  border-radius: 10px;
+  max-width: 1300px;
+  box-shadow: 0 4px 8px var(--cor-sombra);
+}
+
+section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--cor-texto-secao);
+  text-align: center;
+  font-family: var(--fonte-titulo);
+}
+
+section p {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  text-align: justify;
+  font-weight: 400;
+}
+
+/* ========================
+   ESTILOS DE LINKS E BOTÕES
+========================= */
+button,
+a.button {
+  padding: 0.8rem 2rem;
+  background-color: var(--cor-destaque);
+  color: var(--cor-texto);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover,
+a.button:hover {
+  background-color: var(--cor-destaque-hover);
+}
+
+/* ========================
+   RESPONSIVIDADE
+========================= */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 100%;
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+
+  section p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  section h2 {
+    font-size: 1.8rem;
+  }
+
+  section p {
+    font-size: 1.3rem;
+  }
+
+  button,
+  a.button {
+    padding: 0.7rem 1.8rem;
+  }
+}

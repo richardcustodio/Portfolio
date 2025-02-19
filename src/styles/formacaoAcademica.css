@@ -1,0 +1,136 @@
+/* ========================
+  ESTILIZAÇÃO - FORMAÇÃO ACADÊMICA
+======================== */
+.formacao {
+  background-color: var(--cor-fundo);
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #001845, #4361ee); /* Gradiente suave */
+}
+
+/* Título da seção */
+.secao-titulo {
+  font-size: 2.5rem;
+  color: var(--cor-texto-destaque);
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Estilização de cada certificado */
+.secao-certificados {
+  background-color: var(--cor-background);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de hover nos certificados */
+.secao-certificados:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtítulo (período do curso) */
+.secao-subtitulo {
+  font-size: 1.3rem;
+  color: var(--cor-texto);
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+/* Listagem dos cursos */
+.categoria-certificado {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.categoria-certificado h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--cor-texto);
+  margin-bottom: 0.5rem;
+}
+
+.categoria-certificado p {
+  font-size: 1rem;
+  color: var(--cor-texto);
+  margin-left: 1rem;
+}
+
+/* Estilização do link ou botão de certificado */
+.link-certificados {
+  margin-top: 1rem;
+}
+
+.certificado-botao {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: var(--cor-secao-background);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.certificado-botao:hover {
+  background-color: var(--cor-texto-primario);
+}
+
+/* Link para certificado da Alura */
+/* Link para certificado da Alura */
+.certificado-link {
+  display: inline-block; /* Para que ele se comporte como um botão */
+  font-size: 1.1rem;
+  background-color: var(--cor-secao-background);
+  color: var(--cor-texto-primario);
+  text-decoration: none;
+  padding: 10px 20px; /* Espaçamento interno para parecer um botão */
+  border-radius: 8px; /* Bordas arredondadas */
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.certificado-link:hover {
+  background-color: var(--cor-destaque-hover);
+  color: var(--cor-texto-primario);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .secao-certificados {
+    padding: 1.5rem;
+  }
+
+  .secao-titulo {
+    font-size: 2rem;
+  }
+
+  .secao-subtitulo {
+    font-size: 1.1rem;
+  }
+
+  .categoria-certificado h3 {
+    font-size: 1rem;
+  }
+
+  .categoria-certificado p {
+    font-size: 0.9rem;
+  }
+
+  .certificado-botao,
+  .certificado-link {
+    font-size: 1rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}

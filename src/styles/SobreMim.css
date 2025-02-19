@@ -1,0 +1,50 @@
+/* Seção sobre mim */
+.sobre-mim {
+  padding: 2rem;
+  background-color: var(--cor-fundo); /* Cor de fundo das seções */
+  margin: 0 auto; /* Adiciona um centralizador */
+  max-width: 1200px; /* Limita o tamanho da seção em telas grandes */
+  background: linear-gradient(to right, #001845, #4361ee); /* Gradiente suave */
+}
+
+/* Título da seção */
+.secao-titulo {
+  font-size: 2rem;
+  margin-bottom: 1.5rem; /* Aumenta o espaçamento abaixo do título */
+  color: var(--cor-texto); /* Cor do título */
+  font-weight: 600; /* Torna o título mais destacado */
+}
+
+/* Texto da seção */
+.secao-texto {
+  font-size: 1.3rem;
+  line-height: 1.8; /* Aumenta o espaçamento entre linhas para melhorar a leitura */
+  text-align: justify;
+  color: var(--cor-texto); /* Cor padrão do texto */
+  letter-spacing: 0.5px; /* Ajusta o espaçamento das letras para melhorar a legibilidade */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .secao-titulo {
+    font-size: 1.8rem;
+  }
+
+  .secao-texto {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sobre-mim {
+    padding: 1.5rem;
+  }
+
+  .secao-titulo {
+    font-size: 1.6rem;
+  }
+
+  .secao-texto {
+    font-size: 1.1rem;
+  }
+}

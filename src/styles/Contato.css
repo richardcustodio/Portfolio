@@ -1,0 +1,117 @@
+/* Variáveis de cores (em :root para fácil customização) */
+:root {
+  --cor-fundo: #f5f5f5;
+  --cor-texto: #333;
+  --cor-texto-claro: #777;
+  --cor-header-link-hover: #4cc9f0;
+  --cor-texto-secundario: #999;
+  --cor-borda-foco: #4cc9f0;
+}
+
+/* Estilo da seção de Contato */
+.contato {
+  width: 100%;
+  background: linear-gradient(to right, #001845, #4361ee); /* Gradiente suave */
+  color: white; /* Garantir que o texto seja legível */
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contato-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-top: 1rem; /* Ajuste para dar um pouco mais de espaçamento no topo */
+}
+
+.contato-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  max-width: 300px; /* Limitar a largura para não ficar excessivamente largo */
+  width: 100%;
+  transition: transform 0.3s ease;
+  border: 1px solid var(--cor-texto-secundario);
+  border-radius: 8px; /* Bordas arredondadas */
+  padding: 1.5rem; /* Adiciona padding dentro do item */
+}
+
+.contato-item a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.contato-item:hover {
+  transform: translateY(-5px); /* Adiciona um efeito de movimento suave */
+}
+
+.contato-icone {
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(to right, #001845, #4361ee);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border-radius: 50%;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Suaviza o sombreamento */
+}
+
+.contato-icone:hover {
+  transform: scale(1.1); /* Aumenta o ícone */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Aumenta o sombreamento */
+  filter: brightness(1.2); /* Brilho adicional */
+}
+
+.contato-icone:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(76, 201, 240, 0.5); /* Efeito de foco com sombra suave */
+}
+
+.contato-tipo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--cor-texto);
+}
+
+.contato-info {
+  font-size: 1rem;
+  color: var(--cor-texto-primario);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .contato-container {
+    gap: 2rem; /* Menor gap para telas pequenas */
+  }
+
+  .contato-item {
+    flex-basis: 100%; /* Garante que os itens ocupem toda a largura */
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contato-icone {
+    width: 55px;
+    height: 55px;
+    font-size: 1.8rem; /* Tamanho ajustado dos ícones em telas pequenas */
+  }
+
+  .contato-tipo {
+    font-size: 1.1rem; /* Ajuste no tamanho do texto */
+  }
+
+  .contato-info {
+    font-size: 0.9rem; /* Ajuste no tamanho da informação */
+  }
+}

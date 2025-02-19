@@ -1,0 +1,126 @@
+/* ========================
+  SEÇÃO DE HABILIDADES
+======================== */
+.habilidades {
+  background-color: var(--cor-fundo);
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #001845, #4361ee); /* Gradiente suave */
+}
+
+/* Estilizando o título */
+.habilidades h2 {
+  font-size: 2.5rem;
+  color: var(--cor-texto-primario);
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+/* Adicionando um efeito de sublinhado animado */
+.habilidades h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--cor-barra-progresso);
+  margin: 8px auto 0;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.habilidades h2:hover::after {
+  width: 100px;
+}
+
+/* Container das habilidades - utilizando flexbox para responsividade */
+.lista-habilidades {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Card de cada habilidade */
+.habilidade-item {
+  background-color: var(--cor-background);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease-in-out forwards;
+  position: relative;
+}
+
+/* Efeito de hover com brilho */
+.habilidade-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Ícones das habilidades */
+.habilidade-icone {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+/* Efeito de leve movimento no ícone */
+.habilidade-item:hover .habilidade-icone {
+  transform: rotate(-5deg) scale(1.1);
+}
+
+/* Nome da habilidade */
+.habilidade-item span {
+  font-size: 1.4rem;
+  color: var(--cor-texto);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Barra de progresso */
+.barra-progresso {
+  height: 8px;
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Barra preenchida */
+.nivel {
+  height: 100%;
+  background-color: var(--cor-barra-progresso);
+  width: 0;
+  transition: width 1.5s ease-in-out;
+  border-radius: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .habilidade-item {
+    padding: 1.5rem;
+  }
+
+  .habilidades h2 {
+    font-size: 2rem;
+  }
+
+  .habilidade-item span {
+    font-size: 1.2rem;
+  }
+
+  .habilidade-icone {
+    width: 50px;
+    height: 50px;
+  }
+}

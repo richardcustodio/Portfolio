@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box; /* Garantir que o padding seja considerado dentro do tamanho total */
+}
+
+/* Logo */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms ease, transform 0.3s ease; /* Melhor controle da transição */
+}
+
+.logo:hover {
+  filter: drop-shadow(
+    0 0 2em rgba(100, 108, 255, 0.67)
+  ); /* Cores em RGBA para controle de opacidade */
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em rgba(97, 218, 251, 0.67));
+}
+
+/* Animação para o logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Controle da animação do logo de forma acessível */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Estilo das cartas */
+.card {
+  padding: 2rem;
+  background-color: var(
+    --cor-secao-background
+  ); /* Adicionando uma cor de fundo para as cartas */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras para um efeito 3D */
+}
+
+/* Links para documentação */
+.read-the-docs {
+  color: var(--cor-link); /* Usando a variável definida para links */
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Transição suave para interações */
+}
+
+.read-the-docs:hover {
+  color: var(--cor-link-hover); /* Definindo cor de hover */
+  text-decoration: underline; /* Adicionando sublinhado ao passar o mouse */
+}
+
+/* Considerações para acessibilidade */
+a:focus,
+.logo:focus {
+  outline: 2px solid var(--cor-destaque); /* Adicionando contorno visível para foco */
+  outline-offset: 2px; /* Adicionando espaço entre o contorno e o elemento */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem; /* Menos padding em telas menores */
+  }
+
+  .logo {
+    height: 5em; /* Reduzindo o tamanho do logo em telas menores */
+  }
+
+  .card {
+    padding: 1.5rem; /* Menos padding nas cartas */
+  }
+}
