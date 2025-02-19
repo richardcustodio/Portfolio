@@ -37,9 +37,7 @@ Explore my projects to learn more about my skills:
    Um site de curiosidades sobre filmes e séries.  
    A website with curiosities about movies and TV shows.
 
-3. **[Laço e Nó](2. **[CinesCuriosidades](https://github.com/richardcustodio/CinesCuriosidades)\*\*  
-   Apresentamos o Laço e Nó (Bow and Knot), uma aplicação desenvolvida com o objetivo de praticar e consolidar os conceitos fundamentais do CRUD (Create, Read, Update, Delete).
-   We present Bow and Knot (Laço e Nó), an application developed to practice and reinforce the fundamental concepts of CRUD (Create, Read, Update, Delete).
+3. **[Laço e Nó](https://github.com/richardcustodio/CinesCuriosidades)\*\*  
 
 _(Adicione links e descrições de projetos conforme necessário.)_  
 _(Add links and descriptions for projects as needed.)_
