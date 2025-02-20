@@ -41,7 +41,6 @@ Explore my projects to learn more about my skills:
 3. \*\*[Laço e Nó](https://github.com/richardcustodio/CinesCuriosidades)\*\*  
     Apresentamos o Laço e Nó (Bow and Knot), uma aplicação desenvolvida com o objetivo de praticar e consolidar os conceitos fundamentais do CRUD (Create, Read, Update, Delete).
    We present Bow and Knot (Laço e Nó), an application developed to practice and reinforce the fundamental concepts of CRUD (Create, Read, Update, Delete).
-   > > > > > > > 48b49ff (Alterado informações do readme)
 
 ---
 
