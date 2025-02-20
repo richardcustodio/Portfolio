@@ -31,16 +31,17 @@ Explore meus projetos para conhecer mais sobre minhas habilidades:
 Explore my projects to learn more about my skills:
 
 1. **[Decofidificador-de-texto](https://github.com/richardcustodio/Decofidificador-de-texto)**  
-   Um projeto que decodifica textos com a substituição de caracteres especiais.  
-   A project that decodes texts by replacing special characters.
+   Um projeto para codificar e decodificar texto. O usuário pode digitar, criptografar, copiar o texto e, se desejar, também decodificá-lo.
+   A project to encode and decode text. Users can type, encrypt, copy the text, and, if desired, decode it as well.
+
 2. **[CinesCuriosidades](https://github.com/richardcustodio/CinesCuriosidades)**  
-   Um site de curiosidades sobre filmes e séries.  
-   A website with curiosities about movies and TV shows.
+    É um projeto que tem como objetivo praticar habilidades criando uma aplicação para anexar vídeos, com funcionalidades para editar e remover os vídeos adicionados.
+   Is a project aimed at practicing skills by creating an application to attach videos, with features to edit and delete added videos.
 
-3. **[Laço e Nó](https://github.com/richardcustodio/CinesCuriosidades)\*\*  
-
-_(Adicione links e descrições de projetos conforme necessário.)_  
-_(Add links and descriptions for projects as needed.)_
+3. \*\*[Laço e Nó](https://github.com/richardcustodio/CinesCuriosidades)\*\*  
+    Apresentamos o Laço e Nó (Bow and Knot), uma aplicação desenvolvida com o objetivo de praticar e consolidar os conceitos fundamentais do CRUD (Create, Read, Update, Delete).
+   We present Bow and Knot (Laço e Nó), an application developed to practice and reinforce the fundamental concepts of CRUD (Create, Read, Update, Delete).
+   > > > > > > > 48b49ff (Alterado informações do readme)
 
 ---
 
