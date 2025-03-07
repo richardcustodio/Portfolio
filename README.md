@@ -3,7 +3,8 @@
 ## 🖐️ **Bem-vindo! / Welcome!**
 
 Bem-vindo ao portfólio de um estudante apaixonado por desenvolvimento front-end!  
-Aqui, você encontrará projetos que refletem dedicação, aprendizado contínuo e criatividade no universo do design e da programação web.  
+Aqui, você encontrará projetos que refletem dedicação, aprendizado contínuo e criatividade no universo do design e da programação web.
+
 Welcome to the portfolio of a student passionate about front-end development!  
 Here, you’ll find projects that reflect dedication, continuous learning, and creativity in the world of web design and programming.
 
@@ -12,15 +13,18 @@ Here, you’ll find projects that reflect dedication, continuous learning, and c
 ## 👨‍💻 **Sobre mim / About me**
 
 Sou um estudante em busca de oportunidades para aprimorar minhas habilidades em desenvolvimento front-end.  
-Tenho conhecimento em tecnologias como:  
+Tenho conhecimento em tecnologias como:
+
 I am a student seeking opportunities to improve my front-end development skills.  
 I have knowledge in technologies such as:
 
 - **HTML, CSS, JavaScript**
-- Bibliotecas e frameworks como **React**  
-  Libraries and frameworks like **React**
+- Bibliotecas e frameworks como **React**
 
-Com um olhar atento aos detalhes e uma mentalidade orientada à solução de problemas, busco transformar ideias em interfaces intuitivas e funcionais.  
+- Libraries and frameworks like **React**
+
+Com um olhar atento aos detalhes e uma mentalidade orientada à solução de problemas, busco transformar ideias em interfaces intuitivas e funcionais.
+
 With a keen eye for detail and a problem-solving mindset, I aim to transform ideas into intuitive and functional interfaces.
 
 ---
@@ -47,20 +51,23 @@ Explore my projects to learn more about my skills:
 ## 🚀 **Objetivo / Objective**
 
 Busco continuamente desenvolver minhas habilidades e contribuir para projetos inovadores que promovam experiências digitais de qualidade.  
+
 I continuously strive to improve my skills and contribute to innovative projects that provide high-quality digital experiences.
 
 ---
 
 ## 📜 **Status**
 
-🟡 Este portfólio ainda está em desenvolvimento. Informações adicionais e melhorias serão incluídas em breve.  
-🟡 This portfolio is a work in progress. Additional information and improvements will be added soon.
+🟡 Este portfólio está em constante evolução. Novas informações e melhorias serão adicionadas regularmente.  
+
+🟡 This portfolio is constantly evolving. New information and improvements will be added regularly.
 
 ---
 
 ## 📜 **Licença / License**
 
-Este portfólio está sob a licença MIT. Sinta-se à vontade para explorá-lo e se inspirar.  
+Este portfólio está sob a licença MIT. Sinta-se à vontade para explorá-lo e se inspirar.
+
 This portfolio is licensed under the MIT License. Feel free to explore and get inspired.
 
 ---
